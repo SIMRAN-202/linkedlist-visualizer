@@ -26,9 +26,9 @@ export const Navbar = () => {
       </div>
       <div className="space-x-6 text-lg">
         <Link to="/" className="hover:text-slate-500 transition duration-300">Home</Link>
+        <Link to="/about" className="hover:text-slate-500 transition duration-300">About</Link>
         <Link to="/learn" className="hover:text-slate-500 transition duration-300">Learn</Link>
         <Link to="/visualizer" className="hover:text-slate-500 transition duration-300">Visualizer</Link>
-        <Link to="/about" className="hover:text-slate-500 transition duration-300">About</Link>
       </div>
     </nav>
   )

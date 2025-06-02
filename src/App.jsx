@@ -3,7 +3,7 @@ import { Navbar } from './components/Navbar'
 import { Home } from './pages/home'
 import { About } from './pages/About'
 import { Learn } from './pages/Learn'
-import { Visualizer } from './pages/Visualizer'
+import  Visualizer from './pages/Visualizer'
 import { Footer } from './components/Footer'
 
 

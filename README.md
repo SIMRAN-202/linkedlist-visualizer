@@ -1,12 +1,68 @@
-# React + Vite
+# 🔗 Linked List Visualizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive and intuitive **Linked List Visualizer** built with **React** and **Tailwind CSS**, designed to help learners understand how linked lists work — including **Singly**, **Doubly**, and **Circular** linked lists.
 
-Currently, two official plugins are available:
+![Screenshot 1](public/assets/ss1.png)
+![Screenshot 2](public/assets/ss2.png)
+![Screenshot 3](public/assets/ss3.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🌟 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-  Visualize **Singly**, **Doubly**, and **Circular** Linked Lists
+- Insert Node
+-  Delete Node
+-  Reverse List
+-  Clear List
+-  Responsive and modern UI with Tailwind styling
+- Interactive mini quiz
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React.js
+- **Styling**: Tailwind CSS
+- **Icons/Arrows**: Inline SVG & Unicode characters
+
+---
+
+
+## 🚀 Getting Started
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/yourusername/linked-list-visualizer.git
+cd linked-list-visualizer
+```
+
+### 2. Install Dependencies
+``` bash
+npm install
+```
+### 3. Start the Development Server
+``` bash
+npm run dev
+```
+This project uses Vite for faster development.
+
+##  Use Case
+This project is ideal for:
+
+ - Students learning Data Structures & Algorithms
+ - Educators or tutors who want to demonstrate linked lists visually
+ - Developers building DSA-focused tools or platforms
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any inquiries or feedback, please contact:
+
+- **Name**: Simran  
+- **GitHub**: [SIMRAN-202](https://github.com/SIMRAN-202)  
+- **Email**: kaursimrankaur2003@gmail.com

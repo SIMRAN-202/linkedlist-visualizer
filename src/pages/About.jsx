@@ -2,22 +2,22 @@ import React from 'react'
 
 export const About = () => {
   return (
-    <div className="px-6 py-12 max-w-5xl mx-auto text-slate-800">
+    <div className="px-6 py-12  mx-auto text-slate-800 bg-[url('/pattern.svg')] bg-dots-pattern bg-repeat bg-[length:20px_20px] bg-blend-multiply">
       <h1 className="text-4xl font-bold mb-6 text-center">About Linked List Visualizer</h1>
 
-      <p className="text-lg mb-6">
+      <p className="text-lg mb-6 text-center">
         Understanding data structures is a cornerstone of mastering computer science — and among them, <strong>Linked Lists</strong> stand as a crucial building block. However, for many learners, grasping how linked lists operate just from books and diagrams can be confusing.
       </p>
 
-      <p className="text-lg mb-6">
+      <p className="text-lg mb-6 text-center">
         That’s where <strong>Linked List Visualizer</strong> steps in. Our interactive, intuitive platform allows you to explore the behavior of <em>singly</em>, <em>doubly</em>, and <em>circular linked lists</em> through real-time animations and hands-on manipulation.
       </p>
 
-      <p className="text-lg mb-6">
+      <p className="text-lg mb-6 text-center">
         Whether you're a beginner learning about pointers or a developer brushing up on DSA for interviews, our visualizer makes complex concepts feel simple. Insert nodes, delete them, and observe the changes in structure — all with the click of a button.
       </p>
 
-      <p className="text-lg mb-6">
+      <p className="text-lg mb-6 text-center">
         Built with a love for clarity and education, this app is designed to empower learners through visual learning and active experimentation.
       </p>
 

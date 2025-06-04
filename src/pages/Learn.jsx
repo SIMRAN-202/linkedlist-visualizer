@@ -76,14 +76,14 @@ const toggleAnswer = (index) => {
 };
 
   return (
-    <div className="max-w-5xl mx-auto px-6 py-12 text-slate-900">
+    <div className=" mx-auto px-6 py-12 text-slate-900 bg-[url('/pattern.svg')] bg-dots-pattern bg-repeat bg-[length:20px_20px] bg-blend-multiply">
       <h1 className="text-4xl font-bold mb-6 text-center">
         Learn About Linked Lists
       </h1>
 
       <p className="text-center mb-12 text-slate-500 italic">⏱️ 8 min read</p>
 
-      <section className="mb-16">
+      <section className="mb-16 px-10">
         <h2 className="text-2xl font-bold mb-3">What is a Linked List?</h2>
         <p className="mb-4 leading-relaxed">
           A <strong>linked list</strong> is a linear data structure where each individual element—called a <strong>node</strong>—contains two parts: the actual data and a reference (or pointer) to the next node in the sequence.
@@ -101,12 +101,12 @@ const toggleAnswer = (index) => {
         </div>
       </section>
 
-      <section className="mb-16">
+      <section className="mb-16 px-10">
         <h2 className="text-2xl font-bold mb-6">Types of Linked Lists</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 
-          <div className="border border-slate-300 rounded-xl p-6 hover:shadow-lg transition-shadow">
+          <div className="border border-slate-400 rounded-xl p-6 hover:shadow-lg transition-shadow bg-slate-100">
             <h3 className="text-xl font-semibold mb-3">Singly Linked List</h3>
             <p className="mb-3 text-slate-700">
               Each node points to the next node. Traversal is only in one direction.
@@ -123,7 +123,7 @@ const toggleAnswer = (index) => {
             </p>
           </div>
 
-          <div className="border border-slate-300 rounded-xl p-6 hover:shadow-lg transition-shadow">
+          <div className="border border-slate-400 rounded-xl p-6 hover:shadow-lg transition-shadow bg-slate-100">
             <h3 className="text-xl font-semibold mb-3">Doubly Linked List</h3>
             <p className="mb-3 text-slate-700">
               Each node points to both previous and next nodes. Allows bi-directional traversal.
@@ -140,7 +140,7 @@ const toggleAnswer = (index) => {
             </p>
           </div>
 
-          <div className="border border-slate-300 rounded-xl p-6 hover:shadow-lg transition-shadow">
+          <div className="border border-slate-400 rounded-xl p-6 hover:shadow-lg transition-shadow bg-slate-100">
             <h3 className="text-xl font-semibold mb-3">Circular Linked List</h3>
             <p className="mb-3 text-slate-700">
               The last node points back to the first node, forming a circle.
@@ -159,7 +159,7 @@ const toggleAnswer = (index) => {
         </div>
       </section>
 
-      <section className="mb-16">
+      <section className="mb-16 px-10">
         <h2 className="text-2xl font-bold mb-3">Basic Terminology</h2>
         <ul className="grid grid-cols-2 md:grid-cols-4 gap-6 text-slate-700">
           <li className="bg-slate-100 rounded-lg p-4 shadow-sm">
@@ -177,7 +177,7 @@ const toggleAnswer = (index) => {
         </ul>
       </section>
 
-      <section className="mb-16">
+      <section className="mb-16 px-10">
         <h2 className="text-2xl font-bold mb-6">Common Operations</h2>
 
         {[
@@ -254,7 +254,7 @@ const toggleAnswer = (index) => {
         ))}
       </section>
 
-      <section className="mb-16">
+      <section className="mb-16 px-10">
         <h2 className="text-2xl font-bold mb-6">When & Why to Use Linked Lists</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-slate-700">
           <div>
@@ -276,7 +276,7 @@ const toggleAnswer = (index) => {
         </div>
       </section>
 
-      <section className="mb-16">
+      <section className="mb-16 px-10">
         <h2 className="text-2xl font-bold mb-6">Real-Life Use Cases</h2>
         <ul className="list-disc list-inside space-y-3 text-slate-700  mx-auto grid grid-cols-2">
           <li>Music playlist management, where songs are played sequentially</li>
@@ -286,7 +286,7 @@ const toggleAnswer = (index) => {
         </ul>
       </section>
 
-      <section className="mb-16 text-center">
+      <section className="mb-16 text-center ">
         <h2 className="text-2xl font-bold mb-4">Ready to visualize?</h2>
         <p className="mb-6 text-slate-700 max-w-md mx-auto">
           Now that you understand how linked lists work, try the visualizer to see these concepts in action!

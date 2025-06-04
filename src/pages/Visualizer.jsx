@@ -49,7 +49,7 @@ const Visualizer = () => {
   };
 
   return (
-    <div className=" pt-8 px-8 space-y-6">
+    <div className=" pt-8 px-8 space-y-6 bg-[url('/pattern.svg')] bg-dots-pattern bg-repeat bg-[length:20px_20px] bg-blend-multiply">
       
       {/* Header and Dropdown Row */}
       <div className="flex items-center justify-between">

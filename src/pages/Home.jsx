@@ -32,7 +32,7 @@ export const Home = () => {
 
 
   return (
-    <>
+    <div className="bg-[url('/pattern.svg')] bg-dots-pattern bg-repeat bg-[length:20px_20px] bg-blend-multiply">
     <div className="flex flex-col md:flex-row items-center justify-center min-h-[80vh] px-6 gap-8">
       
     <div className="md:w-1/2 px-6 w-full flex flex-col justify-center space-y-6">
@@ -171,6 +171,6 @@ export const Home = () => {
   </button>
 </div>
 
-    </>
+    </div>
   )
 }

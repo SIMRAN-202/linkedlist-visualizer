@@ -1,9 +1,9 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { Navbar } from './components/Navbar'
-import { Home } from './pages/home'
-import { About } from './pages/About'
-import { Learn } from './pages/Learn'
-import  Visualizer from './pages/Visualizer'
+import { Home } from './pages/Home.jsx'
+import { About } from './pages/About.jsx'
+import { Learn } from './pages/Learn.jsx'
+import  Visualizer from './pages/Visualizer.jsx'
 import { Footer } from './components/Footer'
 
 
